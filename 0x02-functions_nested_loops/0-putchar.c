@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * main - prints_puchar, followed by a new line
- * Return: Always 0 (success)
+ * main - prins _putchar a new line
+ * REturn: ALwaus 0
  */
+
 int main(void)
 {
 	_putchar('_');
@@ -17,5 +18,4 @@ int main(void)
 	_putchar('\n');
 
 	return (0);
-
 }
