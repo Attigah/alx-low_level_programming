@@ -1,23 +1,21 @@
 #include <stdio.h>
 
-/*
+/**
  *  * main - start of program
- *   * Return: has a value of 0
+ *   * Return: has value of 0
  */
 
 int main(void)
 {
-	char alphabet[26] = "abcdefghijklmnopqrstuvwxyz";
+	char alphabet[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	int i;
 	i = 0;
-	for (; i < 26;)
-
+	for (; i < 52;)
 	{
 		char ch = alphabet[i];
 		i++;
 		putchar(ch);
 	}
-
 	putchar('\n');
 	return (0);
 }
