@@ -4,8 +4,8 @@
 
 /**
  *  * main - start or beginnning of program
- *   * Return: value is zero 0
- *    */
+ *   * Return: value is zero 0 **/
+
 int main(void)
 {
 	int n;
@@ -23,5 +23,6 @@ int main(void)
 	{
 		printf("%d is zero\n", n);
 	}
-	return (0);
+return (0);
 }
+
