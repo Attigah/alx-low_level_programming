@@ -1,14 +1,13 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- *  * main - start
- *   *
- *    * Return: Always 0
- *     */
-void print_alphabet_x10(void);
+ * print_alphabet - prints alpha 10 times
+ */
+
+void print_alphabet(void);
 int main(void)
 {
-	print_alphabet_x10();
+	print_alphabet();
 	return (0);
 }
 void alphabet(void)
@@ -22,7 +21,7 @@ void alphabet(void)
 	}
 	putchar('\n');
 }
-void print_alphabet_x10(void)
+void print_alphabet(void)
 {
 	int i;
 	i = 0;
